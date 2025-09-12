@@ -1,4 +1,4 @@
-# 🚚 Sistema de Gestión de Materiales y Equipos de Transporte
+# Sistema de Gestión de Logística de Materiales y Mantenimiento de Vehículos.
 
 ## 📌 Descripción
 Proyecto SQL + Excel orientado a la **gestión de materiales y equipos de transporte**.  
