@@ -12,7 +12,19 @@ El proyecto culmina con un **análisis de datos** y **dashboards en Excel**, per
 - Desarrollar un **análisis de stock y mantenimiento** en Excel con tablas dinámicas y gráficos.
 
 ## 🛠️ Tecnologías utilizadas
-- **MySQL** → Creación de tablas, relaciones, vistas, funciones, procedimientos y triggers.
+- **MySQL Workbench** → Creación de tablas, relaciones, vistas, funciones, procedimientos y triggers.
 - **Excel** → Dashboards, análisis de consumos y movimientos.
 - **GitHub** → Control de versiones y documentación.
+
+## 🖼️ Diagrama Entidad-Relación
+<img width="984" height="1216" alt="image" src="https://github.com/user-attachments/assets/746ddf56-f964-4ecd-a077-db4522d6ae5a" />
+
+## 📊 Algunos gráficos en Excel
+<img width="721" height="349" alt="image" src="https://github.com/user-attachments/assets/11ce0bf6-8c33-40f1-a75e-bcab670c6b0f" />
+<img width="732" height="304" alt="image" src="https://github.com/user-attachments/assets/0dbc566e-9bc4-4ec4-ae8e-c0b759b5c6b1" />
+<img width="709" height="315" alt="image" src="https://github.com/user-attachments/assets/8281934a-4338-4adf-9b6b-e2c72420a9ca" />
+<img width="703" height="312" alt="image" src="https://github.com/user-attachments/assets/4f72d0ce-a733-4c10-98b2-cc7158498f09" />
+
+
+
 
