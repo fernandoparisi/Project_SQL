@@ -1,29 +1,42 @@
-# Sistema de Gestión de Logística de Materiales y Mantenimiento de Vehículos.
+# Sistema de Gestión de Logística y Mantenimiento – Análisis de Datos
 
-## 📌 Descripción
-Proyecto SQL + Excel orientado a la **gestión de materiales y equipos de transporte**.  
-Se desarrolló un **esquema relacional completo** que incluye tablas, vistas, funciones, procedimientos y triggers para controlar el inventario, las compras y el mantenimiento de los vehículos de una empresa de transporte.  
-El proyecto culmina con un **análisis de datos** y **dashboards en Excel**, permitiendo visualizar consumos, compras y movimientos de equipos.
+## 📌 Contexto
+Proyecto que simula un sistema real de **gestión de logística de materiales y mantenimiento de flota** para una empresa de transporte.
+El foco está puesto en **inventarios, compras y costos de mantenimiento**, combinando modelado de datos con análisis operativo.
 
-## 🎯 Objetivos
-- Diseñar y crear un **esquema relacional normalizado** para gestionar materiales y equipos.
-- Implementar **vistas y procedimientos almacenados** que agilicen consultas y reportes.
-- Automatizar controles mediante **triggers de validación y auditoría**.
-- Desarrollar un **análisis de stock y mantenimiento** en Excel con tablas dinámicas y gráficos.
 
-## 🛠️ Tecnologías utilizadas
-- **MySQL Workbench** → Creación de tablas, relaciones, vistas, funciones, procedimientos y triggers.
-- **Excel** → Dashboards, análisis de consumos y movimientos.
-- **GitHub** → Control de versiones y documentación.
+## 🎯 Problema de negocio
+La empresa necesita mejorar la toma de decisiones ante la falta de visibilidad sobre:
+- Movimientos de stock y evolución de inventarios.
+- Concentración de compras por proveedor y material.
+- Identificación de materiales y equipos que generan mayor impacto económico.
+- Evolución temporal de costos para una correcta planificación.
 
-## 🖼️ Diagrama Entidad-Relación
-<img width="984" height="1216" alt="image" src="https://github.com/user-attachments/assets/746ddf56-f964-4ecd-a077-db4522d6ae5a" />
+## 🛠️ **¿Qué se hizo?**
+Diseño de un **modelo relacional normalizado** para gestionar:
+- Materiales, almacenes y movimientos de stock.
+- Proveedores y documentos de compra.
+- Flota de equipos y órdenes de trabajo de mantenimiento.
+- Implementación de **vistas, procedimientos almacenados y triggers** para automatizar validaciones y consultas frecuentes.
+- Análisis de datos mediante **SQL y gráficos en Excel**, orientado a responder preguntas de negocio.
 
-## 📊 Algunos gráficos en Excel
-<img width="721" height="349" alt="image" src="https://github.com/user-attachments/assets/11ce0bf6-8c33-40f1-a75e-bcab670c6b0f" />
-<img width="732" height="304" alt="image" src="https://github.com/user-attachments/assets/0dbc566e-9bc4-4ec4-ae8e-c0b759b5c6b1" />
-<img width="709" height="315" alt="image" src="https://github.com/user-attachments/assets/8281934a-4338-4adf-9b6b-e2c72420a9ca" />
-<img width="703" height="312" alt="image" src="https://github.com/user-attachments/assets/4f72d0ce-a733-4c10-98b2-cc7158498f09" />
+## 📈 Principales insights
+- Durante el primer semestre de 2025 se observa una acumulación de stock, seguida por un mayor consumo en el segundo semestre, lo que evidencia el uso del inventario previamente adquirido.
+- Un número reducido de materiales concentra la mayor parte del monto total de compras, permitiendo identificar ítems críticos para la optimización de costos.
+- La información obtenida permite priorizar acciones sobre compras, inventarios y mantenimiento, alineando los datos con decisiones operativas.
+
+## 📊 Visualizaciones destacadas
+
+**Movimientos trimestrales de materiales (2024–2025)**
+El análisis muestra la relación entre entradas y salidas de materiales a lo largo del tiempo, permitiendo identificar períodos de acumulación y consumo de stock.
+
+(imagen)
+
+**Top 5 materiales por monto total de compra**
+Un grupo reducido de materiales representa la mayor parte del gasto total, facilitando la identificación de focos de control y negociación.
+
+(imagen)
+
 
 
 
